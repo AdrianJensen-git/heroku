@@ -1,0 +1,56 @@
+/*
+//Task:                Hangman
+//Assigned to:         Admin
+//Date assigned:       10th June 2023
+//Due date:            10th June 2023
+//Task complete?       Yes
+//Task description:    Create an game called Hangman
+*/
+
+h1 {
+    margin-left: 40px;
+}
+
+p {
+    margin-left: 100px;
+    width: 300px;
+}
+
+.word {
+    margin-left: 100px;
+    letter-spacing: 35px;
+    font-size: 30px;
+}
+    
+.keyboard {
+    margin-left: 40px;
+    text-align: center;
+    display: center;
+    width: 350px;
+}
+    
+.Game button {
+    font-family: inherit;
+    font-size: 20px;
+    cursor: grab;
+    width: 35px;
+    margin: 2px;
+    letter-spacing: 2px;
+    background: #4bbdff;
+}
+    
+#restart {
+    margin-left: 10px;
+    width: 200px;
+    background-color: #4bbdff;
+}
+
+#help {
+    margin-left: 10px;
+    width: 200px;
+    background-color: #4bbdff;
+}
+    
+.Game button:hover {
+    background-color: white;
+}
